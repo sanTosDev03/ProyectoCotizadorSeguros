@@ -9,6 +9,9 @@ body {
     width: 100%;
     padding: 15px;
 }
+.mensaje {
+  margin: 26px 0px;
+}
 .error {
     background-color: #FBE9E7;
     border: 1px solid #F4511E;

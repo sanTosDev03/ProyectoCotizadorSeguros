@@ -32,6 +32,7 @@ UI.prototype.MostrarMensaje = function(mensaje,modo) {
         mensajeAlerta.classList.add('correcto');
     }
     // Insertamos en el HTML
+    mensajeAlerta.classList.add('mensaje');
     mensajeAlerta.textContent = mensaje;
     const form = document.querySelector('#cotizar-seguro');
     form.insertBefore(mensajeAlerta,document.querySelector('#resultado'))
