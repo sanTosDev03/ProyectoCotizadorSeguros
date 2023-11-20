@@ -78,7 +78,7 @@ UI.prototype.MostrarMensaje = function(mensaje,modo) {
 
 // // Prototipo especifico de la funcion UI() para mostrar la cotización en el HTML;
 UI.prototype.mostrarCotizacion = function(seguro,total) {
-    const {marca,year,tipo} = seguro;
+    const {marca,year,tipo} = seguro; // Extraer los valores con destructuing para mostrarlos en la cotizaciíb final
 
     let textMarca;
 
